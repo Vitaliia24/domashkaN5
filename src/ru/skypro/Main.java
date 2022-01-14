@@ -3,90 +3,79 @@ package ru.skypro;
 public class Main {
 
     public static void main(String[] args) {
-	int [] oneMassiv = new int[3];
-    oneMassiv [0] = 1;
-    oneMassiv [1] = 2;
-    oneMassiv [2] = 3;
+        // Задание 1
+        int[] firstArray = new int[3];
+        firstArray[0] = 1;
+        firstArray[1] = 2;
+        firstArray[2] = 3;
 
-    double [] twoMassiv = {1.57, 7.654, 9.986};
+        double[] secondArray = {1.57, 7.654, 9.986};
 
-    int [] treeMassiv = {7, 4, 8, 12, 9, 10, 3};
+        int[] thirdArray = {7, 4, 8, 12, 9, 10, 3};
 
-
-
-
-
-
-        for (int i = 0; i < oneMassiv.length; i++) {
-            if (i == oneMassiv[oneMassiv.length - 1]) {
-                System.out.print(oneMassiv[i]);
+        // Задание 2
+        for (int i = 0; i < firstArray.length; i++) {
+            if (i == firstArray[firstArray.length - 1]) {
+                System.out.print(firstArray[i]);
                 break;
             }
-            System.out.print(oneMassiv[i] + ", ");
+            System.out.print(firstArray[i] + ", ");
         }
         System.out.print("/n");
 
-        for (int i = 0; i < twoMassiv.length; i++) {
-            if (i == twoMassiv[twoMassiv.length - 1]) {
-                System.out.print(twoMassiv[i]);
+        for (int i = 0; i < secondArray.length; i++) {
+            if (i == secondArray[secondArray.length - 1]) {
+                System.out.print(secondArray[i]);
                 break;
             }
-            System.out.print(twoMassiv[i] + ", ");
+            System.out.print(secondArray[i] + ", ");
         }
         System.out.print("/n");
 
-        for (int i = 0; i < treeMassiv.length; i++) {
-            if (i == treeMassiv[treeMassiv.length - 1]) {
-                System.out.print(treeMassiv[i]);
+        for (int i = 0; i < thirdArray.length; i++) {
+            if (i == thirdArray[thirdArray.length - 1]) {
+                System.out.print(thirdArray[i]);
                 break;
             }
-            System.out.print(treeMassiv[i] + ", ");
+            System.out.print(thirdArray[i] + ", ");
         }
         System.out.print("/n");
 
-
-
-
-
-
-        for (int i = oneMassiv[oneMassiv.length - 1]; i >= 0; i-) {
+        // Задание 3
+        for (int i = firstArray[firstArray.length - 1]; i >= 0; i -) {
             if (i == 0) {
-                System.out.print(oneMassiv[i]);
+                System.out.print(firstArray[i]);
                 break;
             }
-            System.out.print(oneMassiv[i] + ", ");
+            System.out.print(firstArray[i] + ", ");
         }
 
         System.out.print("/n");
 
-        for (int i = twoMassiv[twoMassiv.length - 1]; i >= 0; i-) {
+        for (int i = secondArray[secondArray.length - 1]; i >= 0; i -) {
             if (i == 0) {
-                System.out.print(twoMassiv[i]);
+                System.out.print(secondArray[i]);
                 break;
             }
-            System.out.print(twoMassiv[i] + ", ");
+            System.out.print(secondArray[i] + ", ");
         }
 
         System.out.print("/n");
 
-        for (int i = treeMassiv[treeMassiv.length - 1]; i >= 0; i-) {
+        for (int i = thirdArray[thirdArray.length - 1]; i >= 0; i -) {
             if (i == 0) {
-                System.out.print(treeMassiv[i]);
+                System.out.print(thirdArray[i]);
                 break;
             }
-            System.out.print(treeMassiv[i] + ", ");
+            System.out.print(thirdArray[i] + ", ");
         }
 
         System.out.print("/n");
 
-
-
-
-
-
-        for (int i = 0; i < oneMassiv.length; i++) {
+        // Задание 4
+        for (int i = 0; i < firstArray.length; i++) {
             if (i % 2 == 1) {
-                oneMassiv[i]= oneMassiv[i] + 1;
+                firstArray[i] = firstArray[i] + 1;
             }
         }
 
